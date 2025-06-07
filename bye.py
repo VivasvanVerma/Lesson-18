@@ -4,5 +4,5 @@ try:
         while n == n:
             print("bye")
 
-except SyntaxError:
+except ValueError:
     print("Only numbers allowed.")
